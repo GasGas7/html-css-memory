@@ -11,15 +11,94 @@ body{
 .container{
     width:80%;
     margin: auto;
+    position: relative;
+
 }
 /* Utility class */
 
 /* Container class */
 
-header{
+    /* Header class */
+    header{
     margin: 1rem 0;
     text-align: center;
     color: white;
     font-size: 2.5rem;
-    text-shadow: 1px 2px black, 1px 1px black, 1px 0px black, 0px 0px black;
-}
+    text-shadow: 2px 2px 2px #535353;
+
+    /* 1px 2px black, 1px 1px black, 1px 0px black, 0px 0px black; */
+    }
+    /*/Header class  */
+
+    /* Main class */
+    main{
+        position: absolute;
+        left: 300px;
+    }
+    .raw1, .raw2, .raw3{
+        margin-bottom: 1.5rem;
+    } 
+
+    .pattern{
+        display: inline-block;
+        margin-right: 1.5rem;
+        width: 200px;
+        height: 230px;
+        border-radius: 15px;
+        background-image: url(../img/pattern.png);
+        background-size: contain;
+        box-shadow: 2px 2px 2px #535353;
+    }
+   .img{
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        display: none;
+        position: relative;
+   }
+   
+   .pattern:hover .img{
+        display: inline-block;
+    }
+    .imghide{    
+        position:absolute;
+        top:0;
+        width: 100%;
+        height: 80%;
+    }
+    span{
+        font-size: 30px;
+        position:absolute;
+        bottom: 4px;
+        left:50%;
+        transform: translateX(-50%);
+
+    }
+
+
+/*     
+    .imghide{
+        width: 100%;
+        height: 80%;
+    } */ */
+
+
+
+
+
+
+
+/*     
+    .hoverimage{
+        width: 200px;
+        height:180px;
+        border-radius: 15px;
+        background-size: contain;
+        display: none;
+        
+    }
+    .pattern:hover .hoverimage{
+        display: inline-block;
+    }
+     */
