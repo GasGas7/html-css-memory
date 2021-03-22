@@ -25,23 +25,22 @@ body{
     color: white;
     font-size: 2.5rem;
     text-shadow: 2px 2px 2px #535353;
-
-    /* 1px 2px black, 1px 1px black, 1px 0px black, 0px 0px black; */
     }
     /*/Header class  */
 
     /* Main class */
     main{
         position: absolute;
-        left: 300px;
+        left: 310px;
     }
     .raw1, .raw2, .raw3{
         margin-bottom: 1.5rem;
     } 
-
+        
+        /* proprietà immagini nascoste e sfondo */
     .pattern{
         display: inline-block;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
         width: 200px;
         height: 230px;
         border-radius: 15px;
@@ -49,15 +48,14 @@ body{
         background-size: contain;
         box-shadow: 2px 2px 2px #535353;
     }
-   .img{
+    .img{
         background-color: white;
         width: 100%;
         height: 100%;
         border-radius: 15px;
         display: none;
         position: relative;
-   }
-   
+    }
    .pattern:hover .img{
         display: inline-block;
     }
@@ -67,38 +65,37 @@ body{
         width: 100%;
         height: 80%;
     }
+        /* /proprietà immagini nascoste e sfondo */
+
+
+        /* proprietà immagine fissa */
+    .patternbaloon{
+        display: inline-block;
+        margin-right: 1rem;
+        width: 200px;
+        height: 230px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 2px #535353;
+    }
+    .baloon{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .bg_baloon{
+        position:absolute;
+        top:0;
+        width: 100%;
+        height: 80%;
+    }
+        /* /proprietà immagine fissa */
+
     span{
         font-size: 30px;
         position:absolute;
-        bottom: 4px;
+        bottom: 1rem;
         left:50%;
         transform: translateX(-50%);
-
     }
-
-
-/*     
-    .imghide{
-        width: 100%;
-        height: 80%;
-    } */ */
-
-
-
-
-
-
-
-/*     
-    .hoverimage{
-        width: 200px;
-        height:180px;
-        border-radius: 15px;
-        background-size: contain;
-        display: none;
-        
-    }
-    .pattern:hover .hoverimage{
-        display: inline-block;
-    }
-     */
+/* /Main Class */
