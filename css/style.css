@@ -20,7 +20,7 @@ body{
 
     /* Header class */
     header{
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     text-align: center;
     color: white;
     font-size: 2.5rem;
@@ -98,4 +98,14 @@ body{
         left:50%;
         transform: translateX(-50%);
     }
-/* /Main Class */
+/* /Main class */
+
+/* Footer class */
+
+.booleanfoot{
+    font-size: medium;
+    text-align: center;
+    margin-top: 820px;
+    padding-bottom: 2rem;
+}
+/* /Footer class */
